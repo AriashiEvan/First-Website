@@ -8,6 +8,12 @@ body{
     align-items: center;
     padding: 20px;
     background-color: #333;
+    background-blend-mode: multiply;
+}
+.logo img {
+    height: 40px;
+    scale: 4;
+    margin: 10px;
 }
 .navbar a {
     color: white;
@@ -23,6 +29,9 @@ body{
     display: inline;
 }
 .nav-links li a:hover {
-    color: #ddd;
+    color: #e8720b;
     text-decoration: underline;
+}
+.nav-links li a:active {
+    color: #ff0000;
 }
