@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar .nav-links li {
+    display: inline;
+}
+.nav-links li a:hover {
+    color: #ddd;
+    text-decoration: underline;
+}
