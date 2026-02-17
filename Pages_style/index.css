@@ -7,8 +7,8 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #333;
-    background-blend-mode: multiply;
+    background-color: black;
+    border-radius: 0% 0% 10px 10px;
 }
 .logo img {
     height: 40px;
